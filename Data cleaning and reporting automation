@@ -1,0 +1,140 @@
+# 📊 Data Cleaning & Reporting Automation
+
+## 📌 Project Overview
+
+This project was completed as part of the **Thiranex Data Analytics Internship**.
+
+The objective of this task was to develop a structured workflow for **data cleaning, validation, automated reporting, and visual analysis** using an airfare dataset.
+
+The project processes **11,536 valid airfare records** and organizes the results into cleaned data, automated reports, and visual summaries.
+
+> ⚠️ **Dataset Note:** The airfare records in this project are synthetic prototype data created for testing and demonstration. They are not live airline or OTA fare quotes.
+
+---
+
+## 🎯 Objectives
+
+- Clean and preprocess airfare data
+- Identify missing and duplicate records
+- Validate data quality
+- Detect potential outliers
+- Generate automated statistical reports
+- Analyze airfare by airline and route
+- Analyze fares based on number of stops
+- Create visual summaries for easier interpretation
+
+---
+
+## 🛠️ Tools Used
+
+- Microsoft Excel
+- Data Cleaning
+- Data Validation
+- Excel Formulas
+- Data Analysis
+- Reporting Automation
+- Data Visualization
+- GitHub
+
+---
+
+## 📂 Workbook Structure
+
+The project workbook contains three main sheets:
+
+### 1. `Cleaned_Data`
+
+Contains the processed airfare dataset with **11,536 records** and 32 fields.
+
+Important fields include:
+
+- Quote ID
+- Scrape Timestamp
+- Source Name
+- Origin
+- Destination
+- Route
+- Travel Date
+- Advance Purchase Days
+- Booking Window
+- Airline
+- Flight Number
+- Departure Time
+- Arrival Time
+- Duration
+- Stops
+- Fare Class
+- Base Fare
+- Taxes
+- Convenience Fee
+- Total Fare
+- Availability
+- Status
+- Outlier Flag
+- Duplicate Flag
+- Missing Value Flag
+- Exclusion Flag
+
+---
+
+### 2. `Automated_Report`
+
+This sheet provides automatically summarized airfare statistics.
+
+### Key KPIs
+
+| Metric | Value |
+|---|---:|
+| Total Valid Records | 11,536 |
+| Average Fare | ₹17,564.81 |
+| Minimum Fare | ₹16,800.09 |
+| Maximum Fare | ₹18,388.44 |
+| Number of Airlines | 5 |
+| Number of Routes | 6 |
+
+The report also contains:
+
+- Average fare by airline
+- Top routes by average fare
+- Average fare by number of stops
+- Flight record counts
+
+---
+
+### 3. `Visual_Summaries`
+
+This sheet contains summarized data used for visual analysis.
+
+The visual analysis includes:
+
+- Airline-wise average airfare
+- Travel-date-wise average airfare
+- Route-level comparisons
+- Fare patterns based on stops
+
+These summaries make it easier to identify patterns and compare airfare values.
+
+---
+
+## 🧹 Data Cleaning Process
+
+The dataset was processed through the following workflow:
+
+```text
+Raw Airfare Data
+        ↓
+Data Validation
+        ↓
+Missing Value Check
+        ↓
+Duplicate Check
+        ↓
+Outlier Identification
+        ↓
+Data Quality Flags
+        ↓
+Cleaned Dataset
+        ↓
+Automated Reporting
+        ↓
+Visual Summaries
